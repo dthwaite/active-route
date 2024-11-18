@@ -6,11 +6,11 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom(['1.0', '1.2']);
+  api.versionsFrom(['1.0', '1.2','2.4','3.0']);
 
   api.use([
     'check',
-    'coffeescript@2.4.1',
+    'coffeescript',
     'reactive-dict',
     'underscore'
   ]);
